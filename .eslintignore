@@ -1,0 +1,11 @@
+**/dist/**
+**/build/**
+**/node_modules/**
+**/*.test.{js,jsx,ts,tsx}
+**/*.spec.{js,jsx,ts,tsx}
+**/config-overrides.js
+*config.js
+*defaultTheme.js
+*test.tsx
+**/typechain/*.ts
+**/typechain/factories/*.ts
