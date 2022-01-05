@@ -39,7 +39,6 @@ const Dropdown = React.forwardRef<HTMLDivElement, DropdownProps>(
 
     const dropdownRef = useRef<HTMLUListElement>(null);
 
-
     useEffect(() => {
       function handleEsc(e: KeyboardEvent) {
         if (e.key === "Esc" || e.key === "Escape") {

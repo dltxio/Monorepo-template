@@ -19,7 +19,6 @@ import Community from "../pages/Community";
 import Dashboard from "../pages/Dashboard";
 import Forms from "../pages/Forms";
 import Modals from "../pages/Modals";
-import News from "../pages/News";
 import Tables from "../pages/Tables";
 import Wallets from "../pages/Wallets";
 
@@ -61,10 +60,6 @@ const routes = [
   {
     path: "/modals",
     component: Modals
-  },
-  {
-    path: "/news",
-    component: News
   },
   {
     path: "/tables",

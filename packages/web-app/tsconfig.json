@@ -23,10 +23,7 @@
       "path": "../api-interfaces"
     }
   ],
-  "include": ["src", "@types", "../api-interfaces/src/**/*.d.ts", "../test/*"],
+  "include": ["src", "@types", "../api-interfaces/src/**/*.d.ts", "./test"],
   "exclude": ["../../node_modules", "node_modules", "build"],
-  "types": [
-    "node",
-    "mocha"
-  ],
+  "types": ["node", "mocha"]
 }

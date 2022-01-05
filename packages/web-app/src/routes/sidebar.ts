@@ -20,11 +20,6 @@ const routes = [
     path: "/app/community",
     icon: "UserGroupIcon",
     name: "Community"
-  },
-  {
-    path: "/app/news",
-    icon: "NewsIcon",
-    name: "News"
   }
 ];
 
