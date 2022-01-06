@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "module": "esnext",
-    "lib": ["dom", "es6"],
+    "lib": [
+      "dom",
+      "es6"
+    ],
     "allowJs": false,
     "jsx": "react-jsx",
     "sourceMap": true,
@@ -23,7 +26,18 @@
       "path": "../api-interfaces"
     }
   ],
-  "include": ["src", "@types", "../api-interfaces/src/**/*.d.ts", "./test"],
-  "exclude": ["../../node_modules", "node_modules", "build"],
-  "types": ["node", "mocha"]
+  "include": [
+    "src",
+    "@types",
+    "../api-interfaces/src/**/*.d.ts"
+  ],
+  "exclude": [
+    "../../node_modules",
+    "node_modules",
+    "build"
+  ],
+  "types": [
+    "node",
+    "mocha"
+  ]
 }

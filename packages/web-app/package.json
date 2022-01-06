@@ -11,7 +11,7 @@
     "build": "react-scripts build",
     "cz": "git-cz",
     "release": "release-it",
-    "test:mocha": "ts-mocha test/* -t 10000 --exit",
+    "test:mocha": "ts-mocha src/test/* -t 10000 --exit",
     "test:react": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
