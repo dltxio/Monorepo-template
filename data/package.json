@@ -1,0 +1,27 @@
+{
+  "name": "@powerplay/data",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@types/node": "^8.0.29",
+    "@types/pg": "^7.14.11",
+    "husky": "^7.0.4",
+    "newsapi": "^2.4.1",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "@types/sql-bricks": "^2.0.1",
+    "husky": "^7.0.4",
+    "pg": "^8.6.0",
+    "sql-bricks": "^2.0.5"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
+    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
+    "prettier": "prettier --write . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@powerplay/core-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "tsc --build && rm -f tsconfig.tsbuildinfo",
+    "lint": "eslint . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
+    "lint:fix": "eslint --fix . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx",
+    "prettier": "prettier --write . --ignore-path ../../.eslintignore --ext ts --ext tsx --ext js --ext jsx"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@types/uuid": "^8.3.0",
+    "husky": "^7.0.4",
+    "newsapi": "^2.4.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "husky": "^7.0.4",
+    "uuid": "^8.3.2"
+  }
+}

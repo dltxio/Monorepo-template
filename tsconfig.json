@@ -20,11 +20,11 @@
     "jsx": "preserve"
   },
   "include": [
-    "./api/src/**/*.d.ts",
-    "./api-interfaces/src/**/*.d.ts",
-    "./web-app/src/**/*.d.ts",
-    "./data/src/**/*.d.ts",
-    "./core-backend/src/**/*.d.ts",
-    "./smart-contracts/*"
+    "./api",
+    "./api-interfaces",
+    "./web-app",
+    "./data",
+    "./core-backend",
+    "./smart-contracts"
   ]
 }

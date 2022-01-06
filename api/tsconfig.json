@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "composite": true,
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "../build/api/src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "references": [
+    { "path": "../api-interfaces" },
+    { "path": "../data" },
+    { "path": "../core-backend" }
+  ],
+  "include": [
+    "./src",
+    "../core-backend/src/**/*.d.ts",
+    "../api-interfaces/src/**/*.d.ts",
+    "../data/src/**/*.d.ts"
+  ],
+  "exclude": ["../node_modules", "node_modules", "build"],
+  "typeRoots": ["./types", "./node_modules/@types"],
+  "types": ["node", "mocha"]
+}
